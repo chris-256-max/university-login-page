@@ -1,0 +1,124 @@
+/*Style the whole page*/
+*{
+	box-sizing:border-box;
+}
+
+body{
+	margin: 0;
+	font-family: Arial,sans-serif;
+	background-color: skyblue;
+
+	display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 25px 15px;
+}
+.register-card{
+	width:100%;
+	max-width: 430px;
+	padding: 30px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0 8px 25px rgba(0, 0, 0, 0.10);
+}
+h4{
+	text-align: center;
+	color: darkblue;
+	font-size: 27px;
+	margin-bottom: 8px;
+}
+.subtitle{
+	text-align: center;
+	color: darkblue;
+	margin-bottom: 25px;
+}
+form>label{
+	display: block;
+	margin:15px 0 7px;
+	color: darkblue;
+	font-weight: bolder;
+	font-size: 14px;
+}
+form>input{
+	width: 100%;
+	padding:12px;
+	border:1px solid #cbd5e1;
+	border-radius: 7px;
+	font-size: 15px;
+}
+input:focus{
+	outline: 2px solid #93c5fd;
+	border-color: #2563eb;
+}
+.phone-field span{
+	background-color: #f1f5f9;
+	padding: 12px;
+	color: darkblue;
+}
+.phone-field input{
+	flex: 1;
+	min-width: 0;
+	padding: 12px;
+	border:none;
+	outline:none;
+	font-size: 15px;
+}
+small{
+	display:inline-block;
+	margin-top: 5px;
+	color:#64748b;
+}
+btton, close-btn{
+	display: block;
+	width: 100px;
+	padding: 13px;
+	margin-top: 20px;
+	border:none;
+	border-radius: 7px;
+	text-align: center;
+	font-size: 15px;
+	text-decoration: none;
+	cursor:pointer;
+}
+button{
+	width: 50%;
+	padding: 13px;
+
+	background-color: #2553eb;
+	color: white;
+
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+button:hover{
+	background-color: #1d4ed8;
+}
+.close-btn{
+	width: 50%;
+	padding: 13px;
+
+	background-color:#e2e8f0;
+	color:#2553eb;
+
+	border: none;
+	border-radius: 20px;
+	font-size: 16px;
+	font-weight: bold;
+	cursor: pointer;
+}
+.close-btn:hover{
+	background-color:#cbd5e1;
+}
+.login-link{
+	text-align:center;
+	margin-top:22px;
+	font-size:14px;
+	color:#64748b;
+}
+a{
+	color:#2563eb;
+}
